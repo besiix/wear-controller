@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wear Controller</string>
+    <string name="hello_round">Hello Round World!</string>
+
+    <string name="not_clicked">Not clicked</string>
+    <string name="click_button">Click</string>
+</resources>
