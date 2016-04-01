@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //----------------------------------------------------------------------------------------------
+    /** Extracts message from broadcast */
     public class MessageReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {

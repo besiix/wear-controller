@@ -8,15 +8,16 @@ import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.WearableListenerService;
 
 public class ListenerService extends WearableListenerService {
+
     public static final String TAG = ListenerService.class.getSimpleName();
 
     @Override
     public void onMessageReceived(MessageEvent messageEvent) {
 
-        Log.d(TAG, "Message received!");
+        Log.v(TAG, "Message received!");
         if (messageEvent.getPath().equals("/message_path")) {
             final String message = new String(messageEvent.getData());
-            Log.d(TAG, "Message reads: " + message);
+            Log.v(TAG, "Message reads: " + message);
 
             // Broadcast message
             Intent messageIntent = new Intent();
