@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
     private TextView mTextView;
 
     private GoogleApiClient mGoogleApiClient;
-    private String mPath = "/message_path";
+    private String mPath = "ListenerService";
     private String mMessage = "Are you receiving?";
 
     //----------------------------------------------------------------------------------------------
